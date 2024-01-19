@@ -1,0 +1,253 @@
+:root {
+  --primary-color: #003;
+  --sec-color: #767575;
+}
+@font-face {
+  font-family: logo;
+  src: url("EmotionalRescuePersonalUseRegular-PKY87.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  /* border: 1px solid black; */
+}
+body {
+  background-color: var(--primary-color);
+  background: url(photo/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.214);
+  display: flex;
+  text-align: center;
+  padding: 0.75em;
+}
+header .nav-container {
+  /* border: 2px solid #fff; */
+  height: 100%;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 0.5em;
+  padding-top: 0.75em; */
+}
+nav div img {
+  padding-left: 1.5em;
+  height: 2em;
+  /* background-color: #fff; */
+}
+.logo a {
+  font-family: logo;
+  font-size: 2em;
+}
+a {
+  color: #fff;
+  padding: 1.5em;
+  text-decoration: none;
+}
+.options a:first-child {
+  color: gray;
+}
+.options a:hover {
+  color: gray;
+  /* border-bottom:7px solid gray ; */
+}
+.container {
+  padding-top: 3em; /*2.5em*/
+  padding-bottom: 2.5em;
+  width: 35%;
+  margin: 0 auto;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar img {
+  width: 11em;
+  height: 11em;
+  border: 0.5px solid black;
+  border-radius: 100%;
+}
+.intro {
+  /* text-align: center; used centre classs */
+  text-align: center;
+  margin-top: 3vh;
+  color: #fff;
+  width: 100%;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.india {
+  background: -webkit-linear-gradient(60deg, #d348f6, #579bea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(182, 184, 184);
+}
+.btn {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 1em;
+  padding-top: 3em;
+}
+.btn1 {
+  font-weight: 900;
+  cursor: pointer;
+  border: 0.15em solid black;
+  border-radius: 100px;
+  height: 3.7em;
+  width: 10em;
+}
+.btn2 {
+  font-weight: 900;
+  color: #fff;
+  background-color: transparent;
+  height: 3.7em;
+  width: 10em;
+  cursor: pointer;
+  border: 0.15em solid #fff;
+  border-radius: 100px;
+}
+button:active {
+  transform: scale(0.97);
+}
+.skills {
+  height: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 1000;
+  line-height: 5em;
+}
+.skills img {
+  line-height: 1em;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  /* border-radius: 54% 70% 51% 61%; */
+  /* border: 0.25px solid white; */
+}
+.skilllogo img {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.projects {
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects .project-dibba {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  gap: 5px; /*upper gapping*/
+}
+.project-dibba .dibba1 {
+  overflow: hidden;
+}
+.project-dibba .dibba1 img {
+  height: 100%;
+  width: 100%;
+}
+.projects h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 1000;
+}
+.project {
+  margin: 15px 8px;
+  text-align: center;
+  margin-bottom: 60px;
+  border: 0.5px solid grey;
+  border-radius: 15px;
+  background-color: transparent;
+  text-align: center;
+  width: 45%;
+  height: 25vh;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience {
+  margin: 15px auto;
+  margin-bottom: 60px;
+  border: 0.5px solid grey;
+  border-radius: 15px;
+  background-color: transparent;
+  text-align: center;
+  width: 35%;
+  height: 25vh;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exp h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 1000;
+  margin-bottom: 2px;
+  /* line-height: 5em; */
+}
+.contact {
+  margin: 15px auto;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 60px;
+  border-radius: 15px;
+  background-color: transparent;
+  /* border: 0.5px solid grey; */
+  width: 35%;
+  height: 25vh;
+}
+.email img {
+  height: 1em;
+  width: 1em;
+  padding-top: 10px;
+  align-items: center;
+}
+.socials a {
+  padding: 0px;
+  font-size: 2em;
+  padding-right: 1em;
+  text-align: left;
+}
+.socials a:nth-child(1) {
+  color: hotpink;
+}
+.socials a:nth-child(2) {
+  color: royalblue;
+}
+.socials a:nth-child(3) {
+  color: rgb(58, 184, 234);
+}
+.footer {
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.214);
+}
+.footer .copyright {
+  width: 100%;
+  background-color: rgb(4, 4, 4);
+  text-align: center;
+  color: #fff;
+}
